@@ -3,7 +3,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
 const fs = require('fs')
-const r = require('rethinkdbdash')({port: 32769})
+const r = require('rethinkdbdash')()
 const config = require('./config.json')
 
 const cpusLength = require('os').cpus().length
