@@ -1,0 +1,994 @@
+[
+  {
+    "description": "See some random cute things",
+    "triggers": [
+      "aww",
+      "cute",
+      "adorable"
+    ]
+  },
+  {
+    "description": "See some cute birbs!",
+    "triggers": [
+      "birb",
+      "bird",
+      "chirpyboi"
+    ]
+  },
+  {
+    "description": "See some cute bunnies!",
+    "triggers": [
+      "hoppyboi",
+      "rabbit",
+      "bunny"
+    ]
+  },
+  {
+    "description": "Lets see some pretty kitties!",
+    "triggers": [
+      "kitty",
+      "pussy",
+      "cat",
+      "meow"
+    ]
+  },
+  {
+    "description": "See some cute lizzybois!",
+    "triggers": [
+      "lizzyboi",
+      "lizard",
+      "scales"
+    ]
+  },
+  {
+    "description": "See some cute doggos!",
+    "triggers": [
+      "pupper",
+      "doggo",
+      "dog",
+      "yipper",
+      "puppy",
+      "borkyboi"
+    ]
+  },
+  {
+    "description": "See some cute red pandas!",
+    "triggers": [
+      "redpanda",
+      "redboi"
+    ]
+  },
+  {
+    "description": "haha ur poor so you have to beg for coins lmaoooo",
+    "triggers": [
+      "beg",
+      "gib"
+    ]
+  },
+  {
+    "description": "u got dis many coins ok",
+    "triggers": [
+      "coins",
+      "bal",
+      "balance"
+    ]
+  },
+  {
+    "description": "Get your daily injection of meme coins",
+    "triggers": [
+      "daily",
+      "24hr"
+    ]
+  },
+  {
+    "description": "melmsie stinks",
+    "triggers": [
+      "deny"
+    ]
+  },
+  {
+    "description": "learn how to earn coins",
+    "triggers": [
+      "earn",
+      "howtogetmorecoins"
+    ]
+  },
+  {
+    "description": "Flip a coin, and if you call it you win it!",
+    "triggers": [
+      "flip",
+      "coinflip"
+    ]
+  },
+  {
+    "description": "Take your chances at gambling. Warning, I am very good at stealing your money.",
+    "triggers": [
+      "gamble",
+      "bet"
+    ]
+  },
+  {
+    "description": "melmsie stinks",
+    "triggers": [
+      "grant"
+    ]
+  },
+  {
+    "description": "Make some hot new memes on your own!",
+    "triggers": [
+      "grantapply",
+      "coingrant",
+      "apply"
+    ]
+  },
+  {
+    "description": "read about our currency!",
+    "triggers": [
+      "guide",
+      "coinhelp",
+      "thesecoinsmakenosense"
+    ]
+  },
+  {
+    "description": "melmsie stinks",
+    "triggers": [
+      "revoke"
+    ]
+  },
+  {
+    "description": "see who the top 10 richest users are!",
+    "triggers": [
+      "rich",
+      "richest",
+      "toponepercent"
+    ]
+  },
+  {
+    "description": "haha ur poor so you have to search for coins in a dumpster hahaha",
+    "triggers": [
+      "search",
+      "dumpsterdive"
+    ]
+  },
+  {
+    "description": "share some coins with someone",
+    "triggers": [
+      "share",
+      "give"
+    ]
+  },
+  {
+    "description": "Take your chances at stealing from users. Warning, you will lose money if you get caught! The victim can lose no more than 25k coins.",
+    "triggers": [
+      "steal",
+      "rob",
+      "ripoff"
+    ]
+  },
+  {
+    "description": "Yes these 4chan posts come from reddit. Get over it, reddit is better.",
+    "triggers": [
+      "4chan"
+    ]
+  },
+  {
+    "description": "not even funny",
+    "triggers": [
+      "antijoke",
+      "badjoke",
+      "notajoke"
+    ]
+  },
+  {
+    "description": "Ask the president whatever you'd like!",
+    "triggers": [
+      "asktrump",
+      "askdonald",
+      "whatdoestrumpthinkabout"
+    ]
+  },
+  {
+    "description": "It isnt racist, its just funny",
+    "triggers": [
+      "blacktwitter",
+      "blackpeopletwitter",
+      "btwitter"
+    ]
+  },
+  {
+    "description": "Let's learn about God",
+    "triggers": [
+      "chucknorris",
+      "chuck",
+      "norris"
+    ]
+  },
+  {
+    "description": "See some s1ck new comics from the past week",
+    "triggers": [
+      "comics",
+      "comic"
+    ]
+  },
+  {
+    "description": "See how dank you are",
+    "triggers": [
+      "dankrate",
+      "memerate"
+    ]
+  },
+  {
+    "description": "Images that make you facepalm",
+    "triggers": [
+      "facepalm",
+      "smh"
+    ]
+  },
+  {
+    "description": "Think you're having a bad day?",
+    "triggers": [
+      "fml",
+      "fuckmylife"
+    ]
+  },
+  {
+    "description": "owo whats this",
+    "triggers": [
+      "freenitro",
+      "rickroll"
+    ]
+  },
+  {
+    "description": "Sick of someone asking dumb questions? LMGTFY it for them!",
+    "triggers": [
+      "google",
+      "lmgtfy"
+    ]
+  },
+  {
+    "description": "See how gay you are",
+    "triggers": [
+      "howgay",
+      "gayrate"
+    ]
+  },
+  {
+    "description": "Sick of someone? Easy! Just kill them!",
+    "triggers": [
+      "kill",
+      "murder",
+      "takecareof"
+    ]
+  },
+  {
+    "description": "Mock the stupid shit your friend says!",
+    "triggers": [
+      "mock"
+    ]
+  },
+  {
+    "description": "Warning, this will kick a random person.",
+    "triggers": [
+      "randomkick",
+      "kickroulette"
+    ]
+  },
+  {
+    "description": "See how good of a waifu you are",
+    "triggers": [
+      "waifu"
+    ]
+  },
+  {
+    "description": "Sick of someone? Easy! Just roast them!",
+    "triggers": [
+      "roast",
+      "rekt"
+    ]
+  },
+  {
+    "description": "Make the bot say whatever you want!",
+    "triggers": [
+      "say",
+      "repeat"
+    ]
+  },
+  {
+    "description": "Things to thing about in the shower",
+    "triggers": [
+      "showerthoughts"
+    ]
+  },
+  {
+    "description": "You really fucked up this time",
+    "triggers": [
+      "tifu",
+      "todayifuckedup"
+    ]
+  },
+  {
+    "description": "Grabs a random comic from [xkcd](https://xkcd.com/)",
+    "triggers": [
+      "xkcd"
+    ]
+  },
+  {
+    "description": "Disowned!",
+    "triggers": [
+      "abandon",
+      "disown"
+    ]
+  },
+  {
+    "description": "Am I the only one that didnt know minecraft had achievements",
+    "triggers": [
+      "achievement",
+      "minecraft",
+      "mc"
+    ]
+  },
+  {
+    "description": "OH NO ITS B1NZY",
+    "triggers": [
+      "b1nzy",
+      "catman"
+    ]
+  },
+  {
+    "description": "ban this nerd pls",
+    "triggers": [
+      "ban",
+      "banne"
+    ]
+  },
+  {
+    "description": "Slap someone shitless with this.",
+    "triggers": [
+      "slap",
+      "batslap",
+      "batman"
+    ]
+  },
+  {
+    "description": "lol rekt",
+    "triggers": [
+      "bed",
+      "monster"
+    ]
+  },
+  {
+    "description": "idk what to put here tbh",
+    "triggers": [
+      "brain",
+      "brains"
+    ]
+  },
+  {
+    "description": "Someone have a spicy profile pic? See a hot new picture of Trump online? Add the Brazzers logo with this command to make it spicy hot.",
+    "triggers": [
+      "brazzers"
+    ]
+  },
+  {
+    "description": "Quick, mom is gone, what are you gonna search on google?",
+    "triggers": [
+      "byemom",
+      "bye"
+    ]
+  },
+  {
+    "description": "the picture doesn't lie...",
+    "triggers": [
+      "cancer",
+      "cancerous"
+    ]
+  },
+  {
+    "description": "Leik dis if you crye evertim",
+    "triggers": [
+      "cry",
+      "tears",
+      "water"
+    ]
+  },
+  {
+    "description": "Dab on the haters",
+    "triggers": [
+      "dab"
+    ]
+  },
+  {
+    "description": "delet this.",
+    "triggers": [
+      "delete",
+      "delet"
+    ]
+  },
+  {
+    "description": "lol thanks ken.",
+    "triggers": [
+      "disability",
+      "ken"
+    ]
+  },
+  {
+    "description": "lol rekt",
+    "triggers": [
+      "door",
+      "kickdoor"
+    ]
+  },
+  {
+    "description": "There is no reason for this command, but here you go.",
+    "triggers": [
+      "egg",
+      "birth"
+    ]
+  },
+  {
+    "description": "It is just a fact bro",
+    "triggers": [
+      "facts",
+      "fact"
+    ]
+  },
+  {
+    "description": "lmfao u suck",
+    "triggers": [
+      "failure",
+      "class"
+    ]
+  },
+  {
+    "description": "CNN!",
+    "triggers": [
+      "fakenews",
+      "fake"
+    ]
+  },
+  {
+    "description": "lol rekt",
+    "triggers": [
+      "fedora",
+      "tip"
+    ]
+  },
+  {
+    "description": "hi, no desc for you",
+    "triggers": [
+      "floor",
+      "theflooris"
+    ]
+  },
+  {
+    "description": "Show your gay pride!",
+    "triggers": [
+      "gay",
+      "gaypride",
+      "pride"
+    ]
+  },
+  {
+    "description": "It's not offensive if it's true, so use this wisely.",
+    "triggers": [
+      "hitler",
+      "worsethanhitler"
+    ]
+  },
+  {
+    "description": "Your least favorite command is back!",
+    "triggers": [
+      "invert"
+    ]
+  },
+  {
+    "description": "Send your friends to jail!",
+    "triggers": [
+      "jail",
+      "prison"
+    ]
+  },
+  {
+    "description": "lol rekt",
+    "triggers": [
+      "laid",
+      "getlaid"
+    ]
+  },
+  {
+    "description": "Make something magik!",
+    "triggers": [
+      "magik",
+      "squiggle"
+    ]
+  },
+  {
+    "description": "It is just a note bro",
+    "triggers": [
+      "note",
+      "angryman"
+    ]
+  },
+  {
+    "description": "idk what to put here tbh",
+    "triggers": [
+      "plan",
+      "gru"
+    ]
+  },
+  {
+    "description": "rest in pepperonis",
+    "triggers": [
+      "rip"
+    ]
+  },
+  {
+    "description": "You seem salty to me, let me show you.",
+    "triggers": [
+      "salty",
+      "salt"
+    ]
+  },
+  {
+    "description": "You are satan ok",
+    "triggers": [
+      "satan",
+      "lucifer",
+      "devil"
+    ]
+  },
+  {
+    "description": "idk what to put here tbh",
+    "triggers": [
+      "savehumanity",
+      "humanity"
+    ]
+  },
+  {
+    "description": "The Search",
+    "triggers": [
+      "thesearch"
+    ]
+  },
+  {
+    "description": "The shit on my shoe!",
+    "triggers": [
+      "shit",
+      "shitty"
+    ]
+  },
+  {
+    "description": "Spank those naughty users",
+    "triggers": [
+      "spank",
+      "spanking"
+    ]
+  },
+  {
+    "description": "lol ur trash",
+    "triggers": [
+      "trash",
+      "garbage"
+    ]
+  },
+  {
+    "description": "UR SO TRIGGERED BRO",
+    "triggers": [
+      "trigger",
+      "triggered"
+    ]
+  },
+  {
+    "description": "dear lord, what is trump saying now...",
+    "triggers": [
+      "tweet",
+      "tweetastrump"
+    ]
+  },
+  {
+    "description": "lol rekt",
+    "triggers": [
+      "ugly",
+      "uglier"
+    ]
+  },
+  {
+    "description": "Your least favorite command is back!",
+    "triggers": [
+      "warp"
+    ]
+  },
+  {
+    "description": "See the top copypastas on reddit!",
+    "triggers": [
+      "copypasta",
+      "shitpost"
+    ]
+  },
+  {
+    "description": "A random Discord-themed meme!",
+    "triggers": [
+      "discordmeme",
+      "dmeme",
+      "discord"
+    ]
+  },
+  {
+    "description": "See a funny joke. Dad's love them!",
+    "triggers": [
+      "joke",
+      "funny"
+    ]
+  },
+  {
+    "description": "same tbh",
+    "triggers": [
+      "meirl",
+      "me_irl"
+    ]
+  },
+  {
+    "description": "See the top new memes on reddit!",
+    "triggers": [
+      "meme",
+      "maymay",
+      "meemee"
+    ]
+  },
+  {
+    "description": "See what memes are being invested in the most today",
+    "triggers": [
+      "memeeconomy",
+      "memeecon"
+    ]
+  },
+  {
+    "description": "Make some hot new memes on your own!",
+    "triggers": [
+      "memegen",
+      "makememe"
+    ]
+  },
+  {
+    "description": "The force is NOT with these",
+    "triggers": [
+      "prequel",
+      "pmeme"
+    ]
+  },
+  {
+    "description": "Are they dad jokes, or are they puns? Is there even a difference?",
+    "triggers": [
+      "pun",
+      "dadjoke"
+    ]
+  },
+  {
+    "description": "The force is NOT with these",
+    "triggers": [
+      "sequel",
+      "smeme"
+    ]
+  },
+  {
+    "description": "I really do not understand these",
+    "triggers": [
+      "surreal",
+      "surrealmemes"
+    ]
+  },
+  {
+    "description": "Good wholesome memes for the heart",
+    "triggers": [
+      "wholesome",
+      "wmeme",
+      "wholesomememe"
+    ]
+  },
+  {
+    "description": "See some 4k nudes!",
+    "triggers": [
+      "4k",
+      "HD",
+      "4kporn"
+    ]
+  },
+  {
+    "description": "See some cute ~~birbs~~ boobs!",
+    "triggers": [
+      "boobies",
+      "boobs",
+      "tits"
+    ]
+  },
+  {
+    "description": "Come get you some ass.",
+    "triggers": [
+      "booty",
+      "ass"
+    ]
+  },
+  {
+    "description": "See some 4k nudes!",
+    "triggers": [
+      "gayp",
+      "gayporn"
+    ]
+  },
+  {
+    "description": "This is some good stuff, trust me",
+    "triggers": [
+      "hentai",
+      "weebporn"
+    ]
+  },
+  {
+    "description": "So apparently naked guys weren't enough for you. Have some girls.",
+    "triggers": [
+      "lesbian",
+      "girlongirl"
+    ]
+  },
+  {
+    "description": "This is some good stuff, trust me",
+    "triggers": [
+      "mcporn"
+    ]
+  },
+  {
+    "description": "owo lewd",
+    "triggers": [
+      "neko",
+      "lewd"
+    ]
+  },
+  {
+    "description": "Basically a porn video but with gifs",
+    "triggers": [
+      "porngif",
+      "porn"
+    ]
+  },
+  {
+    "description": "Make the bot say whatever you want with sass!",
+    "triggers": [
+      "clap",
+      "clapify"
+    ]
+  },
+  {
+    "description": "Make the bot say whatever you want with emojis!",
+    "triggers": [
+      "emojify"
+    ]
+  },
+  {
+    "description": "Make the bot say whatever you want with greentext",
+    "triggers": [
+      "greentext",
+      ">",
+      "gt"
+    ]
+  },
+  {
+    "description": "Make the bot say whatever you want in party form!",
+    "triggers": [
+      "partyparrot",
+      "party"
+    ]
+  },
+  {
+    "description": "Make the bot say whatever you want with a bit of weeb",
+    "triggers": [
+      "weebify",
+      "owoify"
+    ]
+  },
+  {
+    "description": "Will quickly clean the last 10 messages, or however many you specify.",
+    "triggers": [
+      "clean",
+      "purge"
+    ]
+  },
+  {
+    "description": "Thanks to all of you!",
+    "triggers": [
+      "credits",
+      "helpers"
+    ]
+  },
+  {
+    "description": "henlo, u stinky birb",
+    "triggers": [
+      "dev",
+      "stupid-bot"
+    ]
+  },
+  {
+    "description": "Use this command to disable commands you do not wish for your server to use",
+    "triggers": [
+      "disable"
+    ]
+  },
+  {
+    "description": "melmsie stinks",
+    "triggers": [
+      "dm",
+      "slideintothedms"
+    ]
+  },
+  {
+    "description": "See how you can donate to the bot to support the development and get some sweet perks!",
+    "triggers": [
+      "donate",
+      "patreon",
+      "donut"
+    ]
+  },
+  {
+    "description": "Use this command to enable disabled commands.",
+    "triggers": [
+      "enable"
+    ]
+  },
+  {
+    "description": "See a list of commands available.",
+    "triggers": [
+      "help",
+      "cmds",
+      "commands"
+    ]
+  },
+  {
+    "description": "Get an invite for the bot or to the support server.",
+    "triggers": [
+      "invite",
+      "support",
+      "server"
+    ]
+  },
+  {
+    "description": "this is in beta, pls no breaking it",
+    "triggers": [
+      "leaderboard",
+      "lb"
+    ]
+  },
+  {
+    "description": "test cmd plz ignore",
+    "triggers": [
+      "ping"
+    ]
+  },
+  {
+    "description": "Change Dank Memer's prefix!",
+    "triggers": [
+      "prefix"
+    ]
+  },
+  {
+    "description": "Use this command to request a feature you'd like the bot to have.",
+    "triggers": [
+      "request",
+      "featurerequest"
+    ]
+  },
+  {
+    "description": "Returns information and statistics about Dank Memer.",
+    "triggers": [
+      "stats",
+      "info"
+    ]
+  },
+  {
+    "description": "this is in beta, pls no breaking it",
+    "triggers": [
+      "topusers",
+      "ulb"
+    ]
+  },
+  {
+    "description": "Come check out our website!",
+    "triggers": [
+      "website",
+      "site"
+    ]
+  },
+  {
+    "description": "Who needs a bot just for airhorns when your meme bot does it all?",
+    "triggers": [
+      "airhorn",
+      "horn"
+    ]
+  },
+  {
+    "description": "tbh this is kinda catchy",
+    "triggers": [
+      "cowboy",
+      "screaming"
+    ]
+  },
+  {
+    "description": "Play a random epic rap battle of history",
+    "triggers": [
+      "erb",
+      "epicrapbattles",
+      "rap"
+    ]
+  },
+  {
+    "description": "ew!",
+    "triggers": [
+      "fart",
+      "toot"
+    ]
+  },
+  {
+    "description": "HEYYEYAAEYAAAEYAEYAA I SAID HEY",
+    "triggers": [
+      "hey",
+      "HEYYEYAAEYAAAEYAEYAA"
+    ]
+  },
+  {
+    "description": "Troll your friends with the classic twitch knock prank!",
+    "triggers": [
+      "knock"
+    ]
+  },
+  {
+    "description": "Meme music? More like bad music",
+    "triggers": [
+      "mememusic",
+      "memesound",
+      "shitsound"
+    ]
+  },
+  {
+    "description": "You want some sweet mlg remixes kids?",
+    "triggers": [
+      "mlg",
+      "mlgmusic"
+    ]
+  },
+  {
+    "description": "Let your friend know their meme was nice.",
+    "triggers": [
+      "nicememe"
+    ]
+  },
+  {
+    "description": "For all you roblox fans out there",
+    "triggers": [
+      "oof",
+      "roblox"
+    ]
+  },
+  {
+    "description": "AHHHHH SCARY",
+    "triggers": [
+      "scare",
+      "jumpscare"
+    ]
+  },
+  {
+    "description": "STOP FARTING",
+    "triggers": [
+      "stop"
+    ]
+  },
+  {
+    "description": "I AM THE ONE",
+    "triggers": [
+      "theone",
+      "thememe"
+    ]
+  },
+  {
+    "description": "the fuck?",
+    "triggers": [
+      "wtf"
+    ]
+  }
+]
