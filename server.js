@@ -54,7 +54,10 @@ cluster.on('online', (worker) => {
 })
 
 async function masterHandleMessage (message) {
-  cluster.workers[message.dataRequest].send({data: data})
+  //processes events from the workers, in master process
+  if(message === 'stuff') {
+    console.log(message);
+  }
 }
 
 function formatTime (time) {
