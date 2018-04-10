@@ -14,8 +14,8 @@ app.use(bodyParser.json())
 app.post('/dblwebhook', async (req, res) => {
   if (req.headers.authorization) {
     if (req.headers.authorization === config.webhook_secret) {
-      req.body.type === 'upvote' ? await addCoins(req.body.user, 500)
-        : await removeCoins(req.body.user, 500)
+      req.body.type === 'upvote' ? await addCoins(req.body.user, 750)
+        : await removeCoins(req.body.user, 750)
       res.send({status: 200})
     } else {
       res.send({status: 401, error: 'You done gone goofed up auth.'})
