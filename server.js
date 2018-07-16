@@ -31,8 +31,8 @@ app.use(function (req, res, next) {
 
 function launchServer () {
   const http = require('http')
-  http.createServer(app).listen(80)
-  console.log(`Server started on port 80 pid: ${process.pid}`)
+  http.createServer(app).listen(8200)
+  console.log(`Server started on port 8200 pid: ${process.pid}`)
 }
 
 if (cluster.isMaster) {
