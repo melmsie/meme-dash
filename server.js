@@ -14,8 +14,8 @@ app.use(bodyParser.json())
 app.post('/dblwebhook', async (req, res) => {
   if (req.headers.authorization) {
     if (req.headers.authorization === config.webhook_secret) {
-      req.body.type === 'upvote' ? await addCoins(req.body.user, 25)
-        : await removeCoins(req.body.user, 25)
+      req.body.type === 'upvote' ? await addPocket(req.body.user, 25)
+        : console.log('not an upvote??')
       res.send({status: 200})
     } else {
       res.send({status: 401, error: 'You done gone goofed up auth.'})
@@ -72,42 +72,54 @@ function formatTime (time) {
   return `${days > 0 ? `${days}:` : ``}${(hours || days) > 0 ? `${hours}:` : ``}${minutes}:${seconds}`
 }
 
-async function addCoins (id, amount) {
-  let coins = await getCoins(id)
-  coins.coin += amount
-  coins.upvoted = true
+async function getUser (userID) {
+  let user = await r.table('users').get(userID)
+
+  if (!user) {
+    user = (await r.table('users').insert({
+      id: userID, // User id/rethink id
+      pls: 1, // Total commands ran
+      lastCmd: Date.now(), // Last command time
+      lastRan: 'nothing', // Last command ran
+      spam: 0, // Spam means 2 commands in less than 1s
+      pocket: 0, // Coins not in bank account
+      bank: 0, // Coins in bank account
+      lost: 0, // Total coins lost
+      won: 0, // Total coins won
+      shared: 0, // Transferred to other players
+      streak: {
+        time: 0, // Time since last daily command
+        streak: 0 // Total current streak
+      },
+      items: {
+        spin: 0, // Fidget Spinners
+        memes: 0, // Memes
+        tide: 0 // Tide Pods
+      },
+      upgrades: {
+        incr: 0, // Incremental upgrades
+        multi: 0, // Multiplier upgrades
+        vault: 0, // Bank Vault upgrades
+        shares: 0, // Sharing upgrades
+        luck: 0 // Luck upgrades
+      },
+      donor: false, // Donor status, false or $amount
+      godMode: false, // No cooldowns, only for select few
+      vip: false, // Same cooldowns as donors without paying
+      upvoted: false // DBL voter status
+    }, {
+      returnChanges: true
+    }).run()).changes[0].new_val
+  }
+
+  return user
+}
+
+async function addPocket (id, amount) {
+  let res = await getUser(id)
+  res.pocket += amount
+  res.upvoted = true
 
   return r.table('users')
-    .insert(coins, { conflict: 'update' })
-}
-
-async function grabCoin (id) {
-  let coins = await r.table('users')
-    .get(id)
-    .run()
-  if (!coins) {
-    return r.table('users')
-      .insert({ id, coin: 0, upvoted: false }, { returnChanges: true })
-      .run()
-  }
-  return coins
-}
-
-async function getCoins (id) {
-  let coins = await grabCoin(id)
-  if (coins.changes) (coins = coins.changes[0].new_val)
-  return coins
-}
-
-async function removeCoins (id, amount) {
-  let coins = await getCoins(id)
-  if (coins.coin - amount <= 0) {
-    coins.coin = 0
-  } else {
-    coins.coin -= amount
-  }
-  coins.upvoted = false
-
-  return r.table('users')
-    .insert(coins, { conflict: 'update' })
+    .insert(res, { conflict: 'update' })
 }
